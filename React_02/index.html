@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Starting of ReactJs</h1>
+    <p>React ek js library hai jo UI aur fat web bnane ke lia use hote hai </p>
+    <p>meta(facebook) ne bnayi thi <b>2013</b> mein</p>
+    <p>React pure UI ko small reusable pieces mein tod dete hai . react mein sab kuch separate components ki trah act karta hai </p>
+    <p>Normal JS me: Agar ek button click hua → poora DOM manipulate karna padta hai. <b>React mein sirf </b> changed part update hota hai.</p>
+    <h2>React Ka Heart ❤️ — COMPONENTS</h2>
+    <p>Component kya hota hai? 👉 Reusable UI block.</p>
+    <h2>Virtual DOM</h2>
+    <p>React directly browser DOM change nahi karta. Ye use karta hai: ⭐ Virtual DOM</p>
+    <p>DOM = internally ek tree hota ha (Document object model)</p>
+    <p>React bolta hai baar baar real dom ko touch mat karo memory mein ek <b>Copy DOM </b>rakho </p>
+    <p>kuch bhi change karo to react phale vo virtual DOM ko update karta hai phir uss part ko sirf real DOM mein update karta ha </p>
+    <h5>Andar core mein 2 chij hote hai react and react dom = react for ui and react dom for connect react and dom</h5>
+    <h1>react folder structure</h1>
+    <p>vite ka use karte hai ye ek bundler hai ,Vite React app ko fast run karne aur build karne ka tool hai</p>
+    <p>vite ek hi baar mein pura folder structure create kar deta hai with command npm create vite</p>
+    
+    <div class="container"></div>
+    <p>ye humne react cdn link se kiya hai h1 create kiya react se aur container ko root element bnaya aur usme h1 render kar diya root container mein </p>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="module"  src="script.js"></script>
+</body>
+</html>

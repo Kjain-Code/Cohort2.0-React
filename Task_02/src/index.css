@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body,#root{
+  height:100%;
+  width:100%;
+}
+
+.box{
+  height: 100%;
+  width: 100%;
+  background-color: #e7e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+
+.main-box{
+  height:350px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  /* margin: 10px; */
+  padding: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  gap: 20px;
+
+}
+
+.inner{
+  height:150px;
+  width:100%;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  position: relative;
+}
+
+.inner .profile{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+   bottom: -40px;          /* 👈 banner ke niche */
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid white; /* clean overlap */
+  overflow: hidden; 
+}
+.profile img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.main-box h2{
+  text-align: center;
+  padding: 20px;
+}
+
+.main-box h4{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main-box .bottom{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-box .bottom button{
+  height:40px;
+  width:60px;
+  border: none;
+  border-radius: 10px;
+}
